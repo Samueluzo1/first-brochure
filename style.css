@@ -1,15 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #001219;
-  color: #fff;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  /* background-color: #001219; */
+  background-color: rgba(3, 43, 88, 0.884);
+  line-height: 1.6;
 }
 
 h1 {
+  color: #fff;
   text-align: center;
-  font-size: 50px;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  background-color: #285;
 }
 
-.property-one {
+.trademark {
+  font-size: 0.9rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+  gap: 10px;
+}
+
+/* .property-one {
   width: 500px;
   height: 120px;
   margin: 100px auto;
@@ -20,6 +39,42 @@ h1 {
   display: flex;
   align-items: center;
   gap: 86px;
+} */
+
+.property-one,
+.property-two,
+.property-three,
+.property-four,
+.property-five {
+  width: 500px;
+  height: 120px;
+  margin: 100px auto;
+  padding: 32px 48px 32px 86px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 86px;
+}
+
+.property-one {
+  background-color: rgba(107, 6, 102, 0.918);
+}
+
+.property-two {
+  background-color: rgba(150, 5, 5, 0.753);
+}
+
+.property-three {
+  background-color: rgba(85, 68, 85, 0.788);
+}
+
+.property-four {
+  background-color: rgba(148, 194, 12, 0.829);
+}
+
+.property-five {
+  background-color: rgba(0, 0, 0, 0.815);
 }
 
 img {
@@ -27,4 +82,103 @@ img {
   border-radius: 10px;
   transform: scale(1.2);
   /* box-shadow: 10px 12px 24px rgba(0, 0, 2, 0.25); */
+}
+
+.house-text {
+  color: #fff;
+  /* margin-top: 40rem; */
+  /* justify-content: center; */
+  text-align: center;
+}
+
+nav {
+  /* Style to move around the entire navigation inside the website */
+  margin-left: 60px; /* Moves navigation */
+  /* margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center; */
+}
+
+a:link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none; /* Removed BP */
+}
+
+/* CONTACTS PAGE */
+
+h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+p,
+.p-contact {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+label {
+  color: #fff;
+  margin: 20px;
+}
+
+input {
+  background-color: #ccc;
+  color: #222;
+  padding: 12px 20px;
+  border: none;
+  /* cursor: pointer; */
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: 18px;
+}
+
+placeholder {
+  color: #fff;
+}
+
+.submit-btn {
+  text-align: center;
+  padding: 5px;
+  background-color: rgba(20, 20, 40, 1.5);
+  color: #fff;
+  width: 20%;
+  border-radius: 15px;
+}
+
+.submit-btn:hover {
+  background-color: #222;
+  cursor: pointer;
+}
+
+.submit--houses {
+  background-color: rgba(20, 20, 40, 1.5);
+  color: #fff;
+  padding: 15px;
+  float: right;
+  margin: 5px;
+  border-radius: 15px;
+
+  border: 2px solid #ccc;
+}
+
+.submit--houses:hover {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
 }
